@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView txtView = (TextView) findViewById(R.id.txt);
+        txtView.setTextSize(20);
         txtView.setText(getStringFromNative());
 
     }
