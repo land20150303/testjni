@@ -20,7 +20,7 @@ extern "C" {
  */
 JNIEXPORT jstring JNICALL Java_com_unit_testjni_MainActivity_getStringFromNative
         (JNIEnv *env, jobject jObj) {
-    return (*env)->NewStringUTF(env, "Hello From JNI!");
+    return (*env)->NewStringUTF(env, "The Data From JNI!(c程序处理)");
 }
 
 #ifdef __cplusplus
